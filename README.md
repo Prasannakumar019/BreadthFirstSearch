@@ -201,7 +201,8 @@ print("Route:{0}".format(path_states(goal_state_path_4)))
 
 
 ## OUTPUT:
-![Screenshot (282)](https://user-images.githubusercontent.com/75235090/166149568-dca060dc-82bd-4697-b0bf-1c1955e9c2f0.png)
+![Screenshot (282)](https://user-images.githubusercontent.com/75235090/166150222-2907103b-7377-4df7-b0b7-54d427c5fa0d.png)
+
 
 ## SOLUTION JUSTIFICATION:
 The Route solutions are found by Breadth First Search algorithm(following FIFO and routes travelling from left to right).
