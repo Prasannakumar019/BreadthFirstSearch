@@ -29,6 +29,7 @@ End of program.
 
 
 ## PROGRAM
+```python
 %matplotlib inline
 import matplotlib.pyplot as plt
 import random
@@ -36,19 +37,13 @@ import math
 import sys
 from collections import defaultdict, deque, Counter
 from itertools import combinations
-# Prepared by 
-# C. Obed Otto, 
-# Department of Artificial Intelligence and Datascience,
-# Saveetha Engineering College. 602105. India./
+```
+
+```python
 # Experiment done by
 # Student name : Prasannakumar M
-class Problem(object):
-    """The abstract class for a formal problem. A new domain subclasses this,
-    overriding `actions` and `results`, and perhaps other methods.
-    The default heuristic is 0 and the default action cost is 1 for all states.
-    When yiou create an instance of a subclass, specify `initial`, and `goal` states 
-    (or give an `is_goal` method) and perhaps other keyword args for the subclass."""
-
+```
+```python
     def __init__(self, initial=None, goal=None, **kwds): 
         self.__dict__.update(initial=initial, goal=goal, **kwds) 
         
@@ -210,5 +205,6 @@ print("Route:{0}".format(path_states(goal_state_path_4)))
 
 ## SOLUTION JUSTIFICATION:
 The Route solutions are found by Breadth First Search algorithm(following FIFO and routes travelling from left to right).
+
 ## RESULT:
 Thus,an algorithm developed to find the route from the source to the destination point using breadth-first search.
