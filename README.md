@@ -198,10 +198,11 @@ print("Route:{0}".format(path_states(goal_state_path_3)))
 print("\nGoalStateWithPath:{0}".format(goal_state_path_4))
 print("Total Distance={0} Kilometers".format(goal_state_path_4.path_cost))
 print("Route:{0}".format(path_states(goal_state_path_4)))
-
+```
 
 ## OUTPUT:
-![Screenshot (282)](https://user-images.githubusercontent.com/75235090/166150222-2907103b-7377-4df7-b0b7-54d427c5fa0d.png)
+![Screenshot (282)](https://user-images.githubusercontent.com/75235090/166150334-7e029f46-272d-494c-a2d1-9d6af57876e0.png)
+
 
 
 ## SOLUTION JUSTIFICATION:
